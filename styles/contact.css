@@ -1,0 +1,222 @@
+.main-container {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    background-color: #FDFCFA;
+    margin: 5px 20px 30px 40px;
+    padding: 77px 277px 83px 288px;
+}
+
+.container-block1 {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: #F5A023;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.contact-heading {
+    font-family:'Roboto',sans-serif ;
+    font-style: normal;
+    text-align: left;
+    color: black;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 136px;
+    margin-left: 65px;
+}
+
+.email-logo {
+    display: flex;
+    margin-bottom: 15px;
+    margin-left: 66px;
+}
+
+.email-tag {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    text-align: left;
+    position: relative;
+    font-size: 20px;
+    bottom: 0px;
+    left: 35px;
+}
+
+.phone-logo {
+    display: flex;
+    margin-top: 12px;
+    margin-left: 68px;
+}
+
+.phone-tag {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    text-align: left;
+    position: relative;
+    font-size: 20px;
+    bottom: 2px;
+    left: 30px;
+}
+
+.map-logo {
+    display: flex;
+    margin-top: 31px;
+    margin-left: 67px;
+}
+.map-tag{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    text-align: left;
+    position: relative;
+    font-size: 20px;
+    bottom: 16px;
+    left: 10px;
+    margin: 5px 42px 13px 28px;
+}
+.contact{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    /* text-align: left; */
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 85px;
+    line-height: 84px;
+    margin-left: 18px;
+    color: #575353;
+}
+.social-fb{
+    margin-right: 102px;
+    position: relative;
+    bottom: 5px;
+}
+.social-twit{
+    margin-left: 21px;
+    position: relative;
+    bottom: 41px;
+}
+.social-insta{
+    margin-left: 137px;
+    position: relative;
+    bottom: 77px;
+}
+
+.contact-block2 {
+    flex: 1;
+    background-color: #FFFFFF;
+    padding: 48px 65px 49px 50px;
+}
+
+.contact-heading2 {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    text-align: left;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin-left: 62px;
+    margin-top: 6px;
+}
+
+.contact-line1 {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    text-align: left;
+    position: relative;
+    font-size: 14px;
+    top: 24px;
+    left: 60px;
+    line-height: 28px;
+}
+
+.contact-line1 input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 425px;
+    height: 40px;
+    box-sizing: border-box;
+    margin: 1px 1px 15px 1px;
+}
+
+.contact-line2 {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    text-align: left;
+    position: relative;
+    font-size: 14px;
+    top: 24px;
+    left: 60px;
+    line-height: 28px;
+}
+
+.contact-line2 input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 425px;
+    height: 40px;
+    box-sizing: border-box;
+    margin: 1px 1px 15px 1px;
+}
+
+.contact-line3 {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    text-align: left;
+    position: relative;
+    font-size: 14px;
+    top: 13px;
+    left: 60px;
+    line-height: 28px;
+}
+.contact-line3 input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 425px;
+    height: 40px;
+    box-sizing: border-box;
+    margin: 1px 1px 15px 1px;
+    /* background-image: url("D:/Workspace/my-app/website/src/images/india.png"); */
+
+}
+.contact-line4 {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    text-align: left;
+    position: relative;
+    font-size: 14px;
+    top: 24px;
+    left: 60px;
+    line-height: 28px;
+}
+.contact-line4 input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 425px;
+    height: 110px;
+    box-sizing: border-box;
+    margin: 1px 1px 15px 1px;
+}
+
+.submit button{
+    border: 0;
+    border-radius: 5px;
+    height: 50px;
+    background: #f5a023;
+    width: 420px;
+    margin-top: 60px;
+    margin-right: 33px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 17px;
+}
+
+.image{
+    display: flex;
+    position: relative;
+    bottom: 44px;
+    left: 9px;
+}

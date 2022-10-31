@@ -1,0 +1,202 @@
+.main-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: #FDFCFA;
+    margin: 5px 20px 30px 40px;
+    padding: 70px 1034px 83px 255px;
+}
+
+.container-block1 {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: #F5A023;
+    border-radius: 10px 10px 0px 0px;
+    /* width: 375px;
+    height: 366px; */
+}
+
+.contact-heading {
+    font-family:'Roboto',sans-serif ;
+    font-style: normal;
+    text-align: left;
+    color: black;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 136px;
+    margin-left: 65px;
+}
+
+.email-logo {
+    display: flex;
+    margin-bottom: 15px;
+    margin-left: 66px;
+}
+
+.email-tag {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    text-align: left;
+    position: relative;
+    font-size: 20px;
+    bottom: 0px;
+    left: 35px;
+}
+
+.phone-logo {
+    display: flex;
+    margin-top: 12px;
+    margin-left: 68px;
+}
+
+.phone-tag {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    text-align: left;
+    position: relative;
+    font-size: 20px;
+    bottom: 2px;
+    left: 30px;
+}
+
+.map-logo {
+    display: flex;
+    margin-top: 75px;
+    margin-left: 67px;
+    position: relative;
+    bottom: 38px;
+}
+.map-tag{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    text-align: left;
+    position: relative;
+    font-size: 20px;
+    bottom: 16px;
+    left: 10px;
+    margin: 5px 42px 13px 28px;
+}
+
+.contact-block2 {
+    flex: 1;
+    background-color: #FFFFFF;
+    padding: 48px 65px 49px 50px;
+}
+
+.contact-heading2 {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    text-align: left;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin-left: 20px;
+    margin-top: 6px;
+}
+
+.contact-line1 {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    text-align: left;
+    position: relative;
+    font-size: 14px;
+    top: 30px;
+    left: 20px;
+    line-height: 28px;
+}
+
+.contact-line1 input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 425px;
+    height: 40px;
+    box-sizing: border-box;
+    margin: 1px 1px 15px 1px;
+}
+
+.contact-line2 {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    text-align: left;
+    position: relative;
+    font-size: 14px;
+    top: 30px;
+    left: 20px;
+    line-height: 28px;
+}
+
+.contact-line2 input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 425px;
+    height: 40px;
+    box-sizing: border-box;
+    margin: 1px 1px 15px 1px;
+}
+
+.contact-line3 {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    text-align: left;
+    position: relative;
+    font-size: 14px;
+    top: 10px;
+    left: 20px;
+    line-height: 28px;
+}
+.contact-line3 input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 425px;
+    height: 40px;
+    box-sizing: border-box;
+    margin: 1px 1px 15px 1px;
+    /* background-image: url("D:/Workspace/my-app/website/src/images/india.png"); */
+
+}
+.contact-line4 {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    text-align: left;
+    position: relative;
+    font-size: 14px;
+    top: 20px;
+    left: 20px;
+    line-height: 28px;
+}
+.contact-line4 input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 425px;
+    height: 110px;
+    box-sizing: border-box;
+    margin: 1px 1px 15px 1px;
+}
+
+.submit button{
+    border: 0;
+    border-radius: 5px;
+    height: 50px;
+    background: #f5a023;
+    width: 420px;
+    margin-top: 60px;
+    margin-right: 33px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 17px;
+    position: relative;
+    left: 22px;
+}
+
+.image{
+    display: flex;
+    position: relative;
+    bottom: 44px;
+    left: 9px;
+}
